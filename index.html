@@ -12,6 +12,7 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -21,10 +22,10 @@
             <div id="nav" style="background-color: rgb(7, 7, 7) ; " >
                 <img src="./assets/logo.png" alt="" id="logo" >
                 <ul class="list-unstyled list-inline">
-                    
+
                     <li><a href="#intro" class="active">Home</a></li>
-                    <li><a href="#form">Form</a></li>
                     <li><a href="#data-1">Blogs</a></li>
+                    <li><a href="#form">Form</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -36,7 +37,7 @@
                     <div class="hello">Hi, We are </div>
                     <div class="name">Person Management App</div>
                     <div class="about">We manage data of People </div>
-                    <div class="moreabout">Here you can find blogs in the blogs section.</div>
+                    <div class="moreabout">Here you can find data in the blogs section.</div>
                     <div class="buttons">
     
                         
@@ -49,10 +50,14 @@
             </div>
         </div>
 
-
+    
+    </div>
+    <div class="extra" style="margin: 20px; padding:20px;"><h1><strong>Blog Data</strong> </h1></div>
+    <div class="row" id="data-1">
+               
     </div>
     <!-- <hr style="border: 2px solid black; width: 100vw;" > -->
-    <div class="container" id="form" style=" padding: 20px;">
+    <div class="container" id="form" style=" padding: 20px; border: 2px solid black;">
         <form >
             <div class="form-group">
                 <h1 style="color:dimgray"> Form </h1>
@@ -85,26 +90,10 @@
         </form>
     </div>
     <!-- .....................................................  -->
-
-    <div class="container" id="data-1">
-        
-            <div>
-               <h2> Click here to get data --- > &nbsp;&nbsp; 
-                <i id="button" style="cursor: pointer;" class="fa-solid fa-magnifying-glass"></i></h2>
-            </div>
-        
-
-        <hr>
-
-        <div class="container">
-            <div id="data-person"></div>
-        </div>
-          
-        <!-- <script src="./script.js"></script> -->
-    </div>
+    
     <!-- ..............................................  -->
 <hr style="border: solid black">
-<footer class="bg-dark text-center text-white" id="contact">
+<footer class="bg-dark text-center text-white"  id="contact">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
@@ -113,7 +102,6 @@
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/kashish.verma.5876" role="button"
           ><i class="fab fa-facebook-f"></i
         ></a>
-  
         <!-- Twitter -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Kashishv2002" role="button"
           ><i class="fab fa-twitter"></i
@@ -132,8 +120,7 @@
         ></a>
 
         <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/kashishverma1106" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
+          ><i class="fab fa-github"></i></a>
       </section>
      
     </div>
