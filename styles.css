@@ -1,3 +1,6 @@
+body{
+ scroll-behavior: smooth;
+}
 .container{
     padding-right: 0px;
     padding-left: 0px;
@@ -6,7 +9,7 @@
     
 }
 #nav{
-    
+    scroll-behavior: smooth;
     display: flex;
     width: 100vw;
     padding: 15px;
@@ -103,7 +106,37 @@ form{
 #button {
     font-size: 1.3em;
 }
-#data-1{
+/* #data-1{
     height: 100vh   ;
-}
+} */
 /* ..................  */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  
+  .row {margin: 0 -5px;
+    display: flex;
+    flex-wrap:wrap ;
+    }
+  
+  
+  .row:after {
+    
+    content: "";
+    
+    clear: both;
+    
+  }
+  .card {
+    cursor: pointer;
+    margin:4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    padding-top:3px;
+    padding-bottom:55px;
+    text-align: center;
+    background-color: #d4eebd;
+  }
