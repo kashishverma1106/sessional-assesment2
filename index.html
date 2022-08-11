@@ -22,10 +22,10 @@
                 <img src="./assets/logo.png" alt="" id="logo" >
                 <ul class="list-unstyled list-inline">
                     
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Form</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#intro" class="active">Home</a></li>
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="#data-1">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </header>
@@ -35,7 +35,7 @@
                 <div class="devinfo">
                     <div class="hello">Hi, We are </div>
                     <div class="name">Person Management App</div>
-                    <div class="about">We manage blogs of People </div>
+                    <div class="about">We manage data of People </div>
                     <div class="moreabout">Here you can find blogs in the blogs section.</div>
                     <div class="buttons">
     
@@ -51,7 +51,99 @@
 
 
     </div>
-    <hr style=>
+    <!-- <hr style="border: 2px solid black; width: 100vw;" > -->
+    <div class="container" id="form" style=" padding: 20px;">
+        <form >
+            <div class="form-group">
+                <h1 style="color:dimgray"> Form </h1>
+            </div>   
+            <div class="form-group">
+                <label for="">Name : </label>
+                <input class="form-control" type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="">Email : </label>
+                <input class="form-control" type="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="">Password : </label>
+                <input class="form-control" type="password"placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="">Address : </label>
+                <input class="form-control" type="text" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <label for="">Gender : </label>
+                <select name="gender" id="">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <button class="btn btn-success">Submit</button>
+        </form>
+    </div>
+    <!-- .....................................................  -->
+
+    <div class="container" id="data-1">
+        
+            <div>
+               <h2> Click here to get data --- > &nbsp;&nbsp; 
+                <i id="button" style="cursor: pointer;" class="fa-solid fa-magnifying-glass"></i></h2>
+            </div>
+        
+
+        <hr>
+
+        <div class="container">
+            <div id="data-person"></div>
+        </div>
+          
+        <!-- <script src="./script.js"></script> -->
+    </div>
+    <!-- ..............................................  -->
+<hr style="border: solid black">
+<footer class="bg-dark text-center text-white" id="contact">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4" style="width:100vw;">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/kashish.verma.5876" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Kashishv2002" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/kashish_verma_kv/" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/kashishverma1106" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+     
+    </div>
+   
+    <div class="text-center p-3" style="background-color: rgba(244, 110, 215, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://github.com/kashishverma1106">Kashish</a>
+    </div>
+    
+  </footer>
 </body>
 
 </html>
